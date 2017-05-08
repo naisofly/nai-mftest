@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nai-mftest
+  host: nai-mftest
+  disk_quota: 1024M
+  services:
+  - nai-mftest-AdvancedMobileAccess
+  - nai-mftest-imfpush
+  - nai-mftest-cloudantNoSQLDB
